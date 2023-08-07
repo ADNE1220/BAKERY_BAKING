@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+.bgbgbgbg{
+    background-color: #f2eeb6;
+    background-color: #f2cd5e;
+    background-color: #f2b279;
+    background-color: #d9c2ad;
+    background-color: #d97a43;
+}
+
+
+@media screen and (max-width:750px){
+/* ----------------------------------------▼header */
+    #wrap{
+        max-width:750px;
+    }
+
+    .bb1{
+        display: none;
+    }
+    .bb_img .bb2{
+        right: 30%;
+    }
+    .head_inner{
+        height: 50px;
+        position: relative;
+    }
+    .head_top{
+        max-width:750px;
+    }
+    .head_bot{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .top_text{
+        position: absolute;
+        top: 0;
+        right: 40%;
+        z-index: 100;
+        padding-right: 20px;
+        
+    }
+    .my_page{
+        /* display: none; */
+    }
+    .menu{
+        display: none;
+    }
+    /* .nav_right{
+        clear: both;
+        position: absolute;
+        top:0px;
+        right: 50px;
+        border: 1px solid red;
+    } */
+    
+    .m_sub_nav{}
+
+/* ----------------------------------------▼section */
+#section{
+    max-width:750px;
+    margin: 0    auto;
+}
+.slide_img{
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.move{
+    display: none;
+}
+.move_m{
+    display: inline-block;
+}
+.content_wrap{
+    max-width:750px;
+    /* margin: 0 auto; */
+}
+.cont_main{
+    /* border: 1px solid red; */
+    width:80%;
+    margin: 0 auto;
+}
+.cont_main>li:nth-child(3),
+.cont_main>li:nth-child(4){
+    margin-top: 20px;
+}
+.btn_more{
+    margin-right: 50%;
+    transform: translateX(50%);
+}
+.btn_more a{
+    padding: 10px 15px;
+}
+.pc_map{
+    display: none;
+}
+.m_map{
+    display: block;
+}
+.cont_notice{
+    width: 750px;
+}
+.cont_notice ul li{
+    width: 750px;
+}
+.cont_csbox{
+    width: 750px;
+}
+.cont_csbox .cs{
+    width: 350px;
+}
+.cont_csbox>.cs>nav{
+    margin-top: 10px;
+    float: left;
+}
+.cont_csbox .bank{
+    width: 350px;
+    padding-right: 0;
+}
+
+/* ----------------------------------------▼footer */
+#footer{
+    max-width:750px;
+    position: relative;
+}
+.fot_infosns{
+    max-width:750px;
+    min-width: 750px;
+}
+.copy{
+    max-width:750px;
+    min-width: 750px;
+}
+.copy p{
+    padding-top: 20px;
+}
+.foot_logo{
+    position: absolute;
+    top: 65px;
+    left: 10px;
+}
+/* ----------------------------------------▼popup */
+
+
+/* ----------------------------------------▼quick */
+    .quick{
+        display: none;
+    }
+
+}

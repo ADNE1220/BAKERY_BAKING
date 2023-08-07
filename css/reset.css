@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+@font-face {
+    font-family: '오뮤';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+}
+@font-face {
+    font-family: '안성탕면';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: '슈붕';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRoomNo703OTF.woff') format('woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/* font-family: 'Pangolin', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/* font-family: 'Russo One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+/* font-family: 'Rammetto One', cursive; */
+
+body{
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    font-family: "고딕";
+    overflow-x: hidden;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: center;
+}
+
+
+.clear_fix::before, .clear_fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
